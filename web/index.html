@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Orderus Game - Marica Adrian</title>
+    <link rel="stylesheet" type="text/css" href="includes/css/style.css">
+    <script src="includes/js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <button id="startGame">Start game</button>
+    <button id="copyLogs">Copy battle logs</button>
+    <div id="container">
+        <input type="hidden" id="attack" value="0">
+        <div id="round">Round 1</div>
+        <div class="player" data-for="Orderus">
+            <img src="includes/images/orderus.png" alt='Orderus'>
+            <ul>
+                <li data-for="health"></li>
+                <li data-for="strength"></li>
+                <li data-for="defence"></li>
+                <li data-for="speed"></li>
+                <li data-for="luck"></li>
+            </ul>
+            <div class="info" data-for="Orderus">
+                
+            </div>
+        </div><div class="player" data-for="Beast">
+            <img src="includes/images/beast.png" alt='Beast'>
+            <ul>
+                <li data-for="health"></li>
+                <li data-for="strength"></li>
+                <li data-for="defence"></li>
+                <li data-for="speed"></li>
+                <li data-for="luck"></li>
+            </ul>
+            <div class="info" data-for="Beast">
+                
+            </div>
+        </div>
+        
+        <button id="nextRound">Next Round</button>
+    </div>
+    <div id="result">
+        
+    </div>
+    <div class="padding">
+        <div id="logs">
+            
+        </div>
+    </div>
+    <footer>
+        <script src="includes/js/game.js"></script>
+    </footer>
+</body>
+</html>

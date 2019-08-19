@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/bg.jpg');
+}
+
+#start {
+    width: 100%;
+    height: 100%;
+}
+#startGame {
+    left: 45%;
+    top: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    position: absolute;
+    width: 150px;
+    height: 75px;
+    border: 2px solid #73AD21;
+}
+
+#container {
+    width: 100%;
+    display: none;
+}
+
+#round {
+    width: 10%;
+    margin: auto;
+    padding: 10px;
+    border: 3px solid #73AD21;
+    background-color: #999;
+    text-align: center;
+}
+
+#nextRound {
+    width: 10%;
+    margin: auto;
+    padding: 10px;
+    border: 3px solid #73AD21;
+    display: block;
+    margin-top: 50px;
+}
+
+#logs {
+    margin: auto;
+    max-height: 300px;
+    overflow-y: scroll;
+    border: 2px solid #73AD21;
+    background-color: #999;
+}
+
+.player {
+    display: inline-flex;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 50%;
+    margin-top: 50px;
+    background-color: #999;
+    border: 5px solid #73AD21;
+}
+
+.player:first-of-type {
+    padding-left: 20px;
+}
+
+.player img {
+    max-width: 100px;
+}
+
+.padding {
+    padding: 30px;
+}
+
+#result {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: #FF0000;
+}
+
+#copyLogs {
+    display: none;
+    width: 10%;
+    margin: auto;
+    padding: 10px;
+    border: 3px solid #73AD21;
+    text-align: center;
+}
