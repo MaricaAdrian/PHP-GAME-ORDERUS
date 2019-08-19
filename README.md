@@ -9,9 +9,9 @@
 Import orderus.sql
 
   	cloneRepoFolder/
-            orderus.sql
-			api/
-			web/
+            orderus.sql/
+	    api/
+	    web/
             ...
 ## Technologies Used
 - PHP 7.3.
