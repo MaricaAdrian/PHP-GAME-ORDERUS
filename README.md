@@ -1,8 +1,3 @@
-[TOC]
-# Description
-## Install
-## Technologies Used
-
 # Description
 
 - PHP Round based game with a simple UI and API
